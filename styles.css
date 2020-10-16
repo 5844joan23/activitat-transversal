@@ -1,0 +1,67 @@
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  /* Style the header */
+  .header {
+    padding: 20px;
+    text-align: center;
+    height:100vh;
+    background-image: url(imagenes/banner.jpg);
+    color: #01579B;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    
+    overflow: hidden;
+    background-color: #01579B;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-bottom: 7px;
+    
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .columna_principal {
+    text-align: center;
+    width: 100%;
+    padding: 10px 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .div_principal:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .columna_principal {
+      width: 100%;
+    }
+  }
+
+  .logo_menu {
+    width: 5%;
+    
+  }
