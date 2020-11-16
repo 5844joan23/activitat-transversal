@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+
+<body>
+
+    <h2>Omple les teves dades</h2>
+    <div class="formul">
+        <form action="../view/inscripcion.php" method="POST" onsubmit="return validarFor()">
+            <div class="row">
+                <div class="column">
+                    <input type="text" class="insc" id="fdni" name="fdni" placeholder="DNI"><br><br>
+                </div>
+                <div class="column">
+                    <input type="text" class="insc" id="fnom" name="fnom" placeholder="Nom"><br><br>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <input type="text" class="insc" id="fprimer" name="fprimer" placeholder="Primer Cognom"><br><br>
+                    </div>
+                    <div class="column">
+                        <input type="text" class="insc" id="fsegon" name="fsegon" placeholder="Segon Cognom"><br><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <input type="text" class="insc" id="femail" name="femail" placeholder="Email"><br><br>
+                    </div>
+                    <div class="column">
+                        <input type="date" class="insc" id="fdata" name="fdata"><br><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <select class="insc" name="fsexe" id="fsexe">
+                            <option value="home">Home</option>
+                            <option value="dona">Dona</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <input type="submit" id="registrar" value="Registrar">
+                    </div>
+                </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
